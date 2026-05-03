@@ -12,11 +12,11 @@ Leg Length: 120 mm
 Walking Speed: 60 mm/s
 Material Used: Aluminum 6061 alloy for load and base
             carbon Steel for links
-Total Weight Applied: 32.03 N
+Total Weight Applied: 58.1 N
 # Load Calculation
-Total Load (W) = 3.264 × 9.81 = 32.03 N
+Total Load (W) = 5.924 × 9.81 = 58.1 N
 
-Load per leg: = Total Load / 4 = 32.03/4 = 8.01 N
+Load per leg: = Total Load / 4 = 58.1/4 = 14.05 N
 
 # Motion Analysis Insight
 Walking speed: 60 mm/s
@@ -27,7 +27,10 @@ Motors → drive joints
 # Center of Mass (CoM)
 Assumed at geometric center of body
 Coordinates: (X, Y, Z)
-X = 336.81 mm Y = 8.54 mm Z = 84.73 mm
+
+X = 210.52 mm
+Y = 60.93 mm
+Z = 74.60 mm
 The CoM lies near the geometric center, ensuring nearly uniform load distribution.
 
 Explanation: The CoM is centrally located to ensure equal load distribution across all legs.
@@ -53,7 +56,7 @@ Uneven ground causing imbalance
 # Actuator Consideration
 Each joint must handle: Torque ≈ Force × distance
 
- T = F × L T = 8.01 × 0.18 T = 1.44 Nm Nm
+ T = F × L  = 14.5 × 0.12  = 1.74 Nm
 
 # System-Level Understanding
 This system behaves as a load distribution structure where:
